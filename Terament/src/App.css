@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.navbar {
+  margin: 0px;
+  margin-top: 0;
+  padding: 0px;
+  position: fixed;
+  left: 0;
+  height: 44px;
+  width: 100%;
+  background-color: #171719;
+  z-index: 2000;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.nav-btn{
+  position: fixed;
+  height: 44px;
+  right: 0;
+  width: 30px;
+  z-index: 2000
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-line-1{
+position: fixed;
+margin-top: 16.5px;
+margin-right: 10px;
+transform: 0.3s;
+width: 18px;
+height: 1px;
+background-color: aliceblue;
+z-index: 2000;
+transition: 0.3s;
+right: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-line-2{
+  position: fixed;
+  margin-top: 23.5px;
+  margin-right: 10px;
+  transform: 0.3s;
+  width: 18px;
+  height: 1px;
+  background-color: aliceblue;
+  z-index: 2000;
+  transition: 0.3s;
+  right: 0;
+
 }
 
-.card {
-  padding: 2em;
+.slidebar{
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  z-index: 100;
+  background-color: #171719;
+  transition: 0.3s;
+}
+.titel{
+  position: fixed;
+  color: white;
+  margin: 10px;
+  margin-left: 40px;
 }
 
-.read-the-docs {
-  color: #888;
+.logo{
+  position: fixed;
+  margin: 5px;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
 }
