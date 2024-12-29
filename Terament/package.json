@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "homepage": "https://raay109.github.io/React",
+    "homepage": "https://terament.github.io/home",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
