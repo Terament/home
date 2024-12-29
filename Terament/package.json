@@ -2,10 +2,10 @@
   "name": "terament",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://terament.github.io/home",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "homepage": "https://terament.github.io/home",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
