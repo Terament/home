@@ -39,7 +39,7 @@ line2.style.transform = `rotate(${root2}deg)`;
         <div class="nav-line-2"> </div>
     </nav>
     <text class = "titel">Terament</text>
-    <img src="assets/terament.png" class="logo"></img>
+    <img src="Terament/src/assets/terament.png" class="logo"></img>
 </nav>
 
     </div>
