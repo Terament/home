@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "vite.js": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
